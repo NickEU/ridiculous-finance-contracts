@@ -4,6 +4,9 @@ node_modules
 .idea
 *.tsbuildinfo
 
+# Hardhat
+solidity-files-cache.json
+
 # VS Code workspace config
 workspace.code-workspace
 
