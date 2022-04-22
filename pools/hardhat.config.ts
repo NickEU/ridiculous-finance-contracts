@@ -23,7 +23,7 @@ const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",
   networks: {
     hardhat: {},
-    // testnet: fantomTestnet,
+    testnet: fantomTestnet,
     // mainnet: fantomMainnet,
   },
   solidity: {
@@ -76,6 +76,7 @@ const config: HardhatUserConfig = {
     path: "./abi",
     clear: true,
     flat: false,
+    runOnCompile: true,
   },
 };
 
