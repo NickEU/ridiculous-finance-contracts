@@ -40,7 +40,7 @@ main()
   
 async function deployRouter(networkName: string) {
   const RidiRouter = await ethers.getContractFactory("RidiRouter");
-  const factoryAddress = await deployFactory();
+  const factoryAddress = config.RidiFactory[networkName] ?? await deployFactory();
 
   console.log("Deploying RidiRouter..");
   const ridiRouter = await RidiRouter.deploy(factoryAddress, config.WFTM[networkName]);

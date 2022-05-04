@@ -29,7 +29,7 @@ library RidiLibrary {
                         hex"ff",
                         factory,
                         keccak256(abi.encodePacked(token0, token1)),
-                        hex"a5934690703a592a07e841ca29d5e5c79b5e22ed4749057bb216dc31100be1c0" // init code hash
+                        hex"d330e86a3fae75c33570dbb280e0747f07580c4c45890a77d4c126f8de7dc8eb" // init code hash
                     )
                 )
             )

@@ -1,7 +1,11 @@
 export default {
   RidiRouter: {
-    mainnet: "0xd841f16DB22E02e551D166f63e06C60f67395deb",
-    testnet: "0xd841f16DB22E02e551D166f63e06C60f67395deb",
+    mainnet: "0xc81cB9EC8f91940353E52762714C1caFE261d0a3",
+    testnet: "0xc81cB9EC8f91940353E52762714C1caFE261d0a3",
+  },
+  RidiFactory: {
+    mainnet: "0x9cf7E6aA4BC37fa090f063E386c9666ee0Caa1e7",
+    testnet: "0x9cf7E6aA4BC37fa090f063E386c9666ee0Caa1e7",
   },
   MaxZapReverseRatio: {
     mainnet: "50", // 0.5%
